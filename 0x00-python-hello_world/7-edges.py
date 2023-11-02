@@ -2,7 +2,7 @@
 word = "Holberton"
 first = word[:3]
 second = word[7:]
-third = word[1:7]
-print("First 3 letters: {}".format(first))
-print("Last 2 letters: {}".format(second))
-print("Middle word: {}".format(third))
+third = word[1:8]
+print("First 3 letters: " + first)
+print("Last 2 letters: " + second)
+print("Middle word: " + third)
