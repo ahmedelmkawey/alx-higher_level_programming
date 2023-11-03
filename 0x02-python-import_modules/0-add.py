@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-def add(a, b):
-    import add_0
+if __name__ == "__main__":
+    from add_0 import add
 
 
 a = 1
