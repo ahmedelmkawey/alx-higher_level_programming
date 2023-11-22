@@ -4,6 +4,6 @@ Define a class Square
 """
 
 
-class square:
+class Square:
     """ Represent a square """
     pass
