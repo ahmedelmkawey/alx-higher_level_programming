@@ -6,7 +6,10 @@ Square class definition
 
 class Square:
     def __init__(self, size=0):
-        """initialization method"""
+        """
+         Args:
+            size: size of the square
+        """
         if type(size) != int:
             raise TypeError('size must be an integer')
         if size < 0:
