@@ -10,7 +10,11 @@ class Square:
     """
     def __init__(self, size=0):
         """
-        Constructor
+    Args:
+        size -> must be integer
+    Methods:
+        __init__(self, size=0)
+        area(self) -> public instance method return area
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
